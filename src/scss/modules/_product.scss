@@ -1,0 +1,27 @@
+.product {
+    background: $white;
+    
+    border-radius: 20px;
+    border:1px solid #ccc;
+    margin-bottom: 20px;
+    cursor: pointer;
+    &__image{
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        height:180px;
+        background-size: cover;
+        background-position: center center;
+    }
+    &__title{
+        border-radius: 20px; 
+        padding: 20px;
+        margin:0;
+        background: $white;
+    }
+    &__description{
+        padding: 20px;
+        margin: 0;
+        border:1px solid #ccc;
+        
+    }
+}
